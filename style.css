@@ -1,0 +1,19 @@
+body {
+    background-color: antiquewhite;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+
+title {
+    text-align: center;
+    color: white;
+}
+
+p{
+    text-align: center;
+    color: grey;
+    margin: auto;
+    border: 3px solid white;
+}
