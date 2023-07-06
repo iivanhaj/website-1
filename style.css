@@ -6,7 +6,7 @@ body {
 
 div.topnav {
     overflow: hidden;
-    background-color: #4d3b07;
+    background-color: rgb(77, 59, 7);
   }
   
   div.topnav a{
@@ -35,12 +35,12 @@ div.image-container {
 }
 p {
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin: 20px auto;
     padding: 15px;
     border: 2px solid rgb(174, 130, 79);
     max-width: 600px;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -53,7 +53,7 @@ div.gallery {
     margin: 5px;
     padding: 20px;
     border: 2px solid rgb(120, 53, 53);
-    background-color: rgb(120, 91, 36);
+    background-color: rgb(77, 59, 7);
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(137, 95, 95, 0.2);
 }
