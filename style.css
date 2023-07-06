@@ -1,19 +1,82 @@
 body {
-    background-color: antiquewhite;
-}
-h1 {
-    text-align: center;
-    color: white;
+    background-color: rgb(174, 137, 89);
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-title {
+div.topnav {
+    overflow: hidden;
+    background-color: #4d3b07;
+  }
+  
+  div.topnav a{
+    float: left;
+    display: block;
+    width: 30%;
+    color: #e1d6bb;
     text-align: center;
-    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  div.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+h1, title {
+    text-align: center;
+    color: rgb(235, 233, 233);
 }
 
-p{
-    text-align: center;
-    color: grey;
-    margin: auto;
-    border: 3px solid white;
+div.image-container {
+    display: flex;
+    justify-content: center;
 }
+p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid rgb(174, 130, 79);
+    max-width: 600px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+div.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    padding: 20px;
+    border: 2px solid rgb(120, 53, 53);
+    background-color: rgb(120, 91, 36);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(137, 95, 95, 0.2);
+}
+
+div.gallery:hover {
+    border-color: white;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+div.desc {
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    padding: 20px;
+}
+
